@@ -21,22 +21,20 @@ table {
 
 
 thead th {
-    padding: 10px 40px;
+    padding: 10px 90px;
     border: 2px solid #000000;
 }
 
 tbody td {
     padding: 10px;
     border: 2px solid #000000;
-    font-weight: 300;
+    font-weight: 550;
 }
 
 tbody th {
-    padding: 10px 1px;
+    padding: 10px 10px;
     border: 2px solid #000000;
 }
-
-
 
 
 .main-container {
@@ -46,4 +44,22 @@ tbody th {
     margin-bottom: 100px;
 }
 
+.tr-days {
+    background-color: #f0f0f0;
+}
 
+.horas {
+    padding: 10px;
+}
+
+.cliente {
+    background-color: #0FA3B1;
+}
+
+.empresa {
+    background-color: #EDDEA4;
+}
+
+.servidor {
+    background-color: #B5E2FA;
+}
