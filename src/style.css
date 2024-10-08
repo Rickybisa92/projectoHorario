@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+thead th {
+    padding: 10px 40px;
+    border: 2px solid #000000;
+}
+
+tbody td {
+    padding: 10px;
+    border: 2px solid #000000;
+    font-weight: 300;
+}
+
+tbody th {
+    padding: 10px 1px;
+    border: 2px solid #000000;
+}
+
+
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
