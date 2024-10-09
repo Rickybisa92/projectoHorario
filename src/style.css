@@ -29,11 +29,56 @@ tbody td {
     padding: 10px;
     border: 2px solid #000000;
     font-weight: 550;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
 }
 
 tbody th {
     padding: 10px 10px;
     border: 2px solid #000000;
+}
+
+/* Efecto hover para las asignaturas */
+.client:hover {
+    background-color: rgba(0, 129, 167, 0.7);
+    transform: scale(1.05);
+}
+
+.empresa:hover {
+    background-color: rgba(237, 222, 164, 0.7);
+    transform: scale(1.05);
+}
+
+.servidor:hover {
+    background-color: rgba(240, 113, 103, 0.7);
+    transform: scale(1.05);
+}
+
+.disseny:hover {
+    background-color: rgba(0, 175, 185, 0.7);
+    transform: scale(1.05);
+}
+
+.desplegament:hover {
+    background-color: rgba(254, 217, 183, 0.7);
+    transform: scale(1.05);
+}
+
+/* Efecto hover para el enlace GitHub */
+a {
+    color: black;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #555; /* Cambia a un gris más claro */
+    transform: scale(1.1); /* Agranda ligeramente */
 }
 
 
@@ -82,4 +127,52 @@ a {
     text-decoration: none;
     margin: 10px;
 
+}
+
+/* Estilos responsivos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    table {
+        font-size: 20px;
+    }
+
+    thead th, tbody td, tbody th {
+        padding: 5px; 
+    }
+
+    .main-container {
+        margin-bottom: 50px;
+    }
+
+    .th-hours {
+        width: 60px;
+    }
+}
+
+/* Estilos responsivos para pantallas muy pequeñas (teléfonos) */
+@media (max-width: 480px) {
+    table {
+        display: block;
+        overflow-x: auto; 
+    }
+
+    thead, tbody, th, td, tr {
+        display: block; 
+        width: 100%;
+    }
+
+    tbody td, thead th {
+        text-align: left;
+    }
+
+    tbody th {
+        text-align: right;
+    }
+
+    .th-hours {
+        display: none;
+    }
+
+    tbody td {
+        padding: 10px 5px;
+    }
 }
