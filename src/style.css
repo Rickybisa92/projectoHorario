@@ -45,15 +45,15 @@ tbody th {
 }
 
 .tr-days {
-    background-color: #f0f0f0;
+    background-color: #c0c0c0;
 }
 
 .horas {
     padding: 10px;
 }
 
-.cliente {
-    background-color: #0FA3B1;
+.client {
+    background-color: #0081A7;
 }
 
 .empresa {
@@ -61,5 +61,25 @@ tbody th {
 }
 
 .servidor {
-    background-color: #B5E2FA;
+    background-color: #F07167;
+}
+
+.disseny {
+    background-color: #00AFB9;
+}
+
+.desplegament {
+    background-color: #FED9B7;
+}
+
+
+a {
+    color: black;
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+
 }
